@@ -4,7 +4,7 @@ import { Inter } from 'next/font/google'
 import NavBar from '@/components/NavBar/NavBar'
 const inter = Inter({ subsets: ['latin'] })
 import { getServerSession } from 'next-auth'
-import { authOptions } from './api/auth/[...nextauth]/route'
+import { authOptions } from './api/auth/[...nextauth]/authOptions'
 import NextAuthProvider from '@/providers/NextAuthProvider'
 import Head from 'next/head'
 

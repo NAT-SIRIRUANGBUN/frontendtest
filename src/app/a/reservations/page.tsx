@@ -2,7 +2,7 @@ import getAllUser from "@/app/libs/admingetalluser"
 import styles from './page.module.css'
 import UserReservationBlock from "@/components/UserReservationBlock/UserReservationBlock"
 import { getServerSession } from "next-auth"
-import { authOptions } from "@/app/api/auth/[...nextauth]/route"
+import { authOptions } from "@/app/api/auth/[...nextauth]/authOptions"
 import { redirect } from "next/navigation"
 export default async function viewAllReservation() {
 

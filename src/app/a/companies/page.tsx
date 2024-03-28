@@ -1,4 +1,4 @@
-import { authOptions } from "@/app/api/auth/[...nextauth]/route";
+import { authOptions } from "@/app/api/auth/[...nextauth]/authOptions";
 import getUserData from "@/app/libs/getUserData";
 import CompanyAdminBlock from "@/components/CompanyAdminBlock/CompanyAdminBlock";
 import CompanyAdminPanel from "@/components/CompanyAdminPanel/CompanyAdminPanel";

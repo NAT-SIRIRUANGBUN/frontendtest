@@ -1,5 +1,5 @@
 import { getServerSession, Session } from "next-auth"
-import { authOptions } from "../api/auth/[...nextauth]/route"
+import { authOptions } from "../api/auth/[...nextauth]/authOptions"
 const backend_url = process.env.BACKEND_URL
 
 export default async function getUserData(session : any) {

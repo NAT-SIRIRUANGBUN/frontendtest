@@ -3,10 +3,9 @@
 import styles from './page.module.css'
 import UserDetailCard from '@/components/UserDetailCard/UserDetailCard'
 import UserReservationCard from '@/components/UserReservationCard/UserReservationCard'
-import getUserReservation from '../libs/getUserReservation'
 import LogoutButton from '@/components/LogoutButton/LogoutButton'
 import { getServerSession } from 'next-auth'
-import { authOptions } from '../api/auth/[...nextauth]/route'
+import { authOptions } from '../api/auth/[...nextauth]/authOptions'
 import { redirect } from 'next/navigation'
 import getUserData from '../libs/getUserData'
 
