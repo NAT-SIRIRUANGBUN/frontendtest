@@ -6,7 +6,6 @@ import { Session } from "next-auth";
 import { JWT } from "next-auth/jwt";
 import { AdapterUser } from "next-auth/adapters";
 import companyLogin from "@/app/libs/companyLogin";
-import getUserReservation from "@/app/libs/getUserReservation";
 
 
 export const authOptions : NextAuthOptions = {

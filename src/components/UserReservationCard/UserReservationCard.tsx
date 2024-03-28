@@ -3,7 +3,6 @@
 import { useSession } from 'next-auth/react'
 import styles from './userreservationcard.module.css'
 import Image from 'next/image'
-import getUserReservation from '@/app/libs/getUserReservation'
 import { useEffect, useState } from 'react'
 import deleteReservation from '@/app/libs/deleteReservation'
 const backend_url = process.env.BACKEND_URL
