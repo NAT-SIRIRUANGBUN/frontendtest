@@ -1,6 +1,5 @@
 'use server'
 const backend_url = process.env.BACKEND_URL
-console.log(backend_url)
 export default async function registerUser (userEmail : string , userPassword : string , userName : string , userTel : string) {
     const newUser = await fetch(`${backend_url}/api/auth/register` , {
         method : 'POST',
