@@ -9,7 +9,7 @@ import Footer from '@/components/Footer/Footer'
 export default function Landing() {
 
   const [imageIndex , setImageIndex] = useState(0)
-  
+  console.log(ImageList[imageIndex])
   setTimeout(() => {
       setImageIndex((imageIndex + 1) % ImageList.length)
   }, 4000);
