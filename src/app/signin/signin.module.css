@@ -1,0 +1,256 @@
+.ContentWrapper {
+    height: 94vh;
+    width: 100%;
+    background-color: #62C1D5   ;
+    overflow: hidden;
+    position: relative;
+    font-family: 'Poppins';
+
+    font-size: 18px;
+}
+
+.SignUpPage {
+
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: #62C1D5;
+
+    padding: 0 11.5% 0 11.5%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+    padding-top: 15vh;
+
+    box-sizing: border-box  ;
+
+    padding-bottom: 10vh;
+
+    transition : padding ease-out 0.5s ;
+
+
+}
+
+.SignUpPageMinimal {
+
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: #62C1D5;
+
+    padding: 0 11.5% 0 11.5%;
+
+    margin-top: 1vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+    box-sizing: border-box  ;
+
+    padding-bottom: 10vh;
+    
+    transition : padding ease-in 0.5s ;
+
+}
+
+.SignUpPageMinimal .SignUpForm {
+
+    transition : all ease-in 1s ;
+
+}
+
+.SignUpHeader {
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    transition : none;
+}
+
+
+.SignUpForm {
+    position: relative;
+    width: 28vw;
+    margin-top: 2vh;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    border: solid 2px;
+    border-color: white;
+    border-radius: 15px;
+
+    padding-bottom: 3vh;
+}
+
+.SignUpForm input {
+    height: 4.5vh;
+    width: 25vw;
+
+    border: none;
+    outline: none;
+
+    border-radius: 15px;
+
+    margin-top: 3vh;
+
+    box-sizing: border-box;
+
+}
+
+.SignUpForm input[type='text'] , .SignUpForm input[type='email'] , .SignUpForm input[type='password']  , .SignUpForm input[type='tel']  {
+    padding-left: 5%;
+
+}
+
+.SignInPage {
+    position: absolute;
+    top: 84vh;
+    height: 100vh;
+    width: 100%;
+    background-color: #FBECCF;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 2vh;
+    box-sizing: border-box;
+
+    transition : top ease-in 0.5s ;
+    /* transition: padding-top ease-in 0.5s; */
+
+}
+
+.SignInPageExpand {
+    position: absolute;
+    top: 8vh;
+    height: 86vh;
+    width: 100%;
+    background-color: #FBECCF;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    box-sizing: border-box;
+
+    padding-top: 0.5vh;
+
+    transition : all ease-in 0.5s ;
+    /* transition: padding-top ease-in 0.5s; */
+
+
+}
+
+.SignInPage .SignInHeader {
+    color:  #1D8BA3;
+    font-size: 40px;
+    font-weight: 600;
+    transition : all ease-in 0.5s ;
+}
+
+.SignInPageExpand .SignInHeader {
+    /* position: absolute; */
+    /* top: 2vh; */
+    margin-top: 20vh;
+    color:  #1D8BA3;
+    font-size: 40px;
+    font-weight: 600;
+    transition : all ease-in 0.5s ;
+}
+
+.SignInForm {
+
+    position: relative;
+    width: 28vw;
+    margin-top: 2vh;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    border: solid 2px;
+    border-color: white;
+    border-radius: 15px;
+
+    padding-bottom: 3vh;
+
+    margin-top: 2vh;
+}
+
+.SignInForm input {
+    
+    height: 4.5vh;
+    width: 25vw;
+
+    border: none;
+    outline: none;
+
+    border-radius: 15px;
+
+    margin-top: 3vh;
+
+    box-sizing: border-box;
+
+}
+
+.SignInForm input[type='email'] , .SignInForm input[type='password'] {
+    padding-left: 5%;
+}
+
+.CheckboxWrapper {
+    height: 4.5vh;
+    width: 25vw;
+    margin-top: 3vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center ;
+    gap: 3%;
+}
+
+.CheckboxWrapper input {
+    margin-top: 0;
+    width: 5%;
+    border: solid 1px;
+    border-color: #1D8BA3;
+    background-color: #1D8BA3;
+    
+}
+
+.CheckboxWrapper input[type="checkbox"] {
+    outline: none;
+    border-color: #1D8BA3;
+
+    accent-color: #1D8BA3
+}
+
+.CheckboxWrapper label {
+    display: flex;
+    align-items: center;
+    color: #1D8BA3;
+}
+
+.SignUpButton {
+    background-color: #F3B02E;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.SignInButton {
+    background-color: #62C1D5;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+}

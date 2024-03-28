@@ -1,0 +1,77 @@
+.Block {
+    position: relative;
+
+    width: 100%;
+    border-radius: 10px;
+    background-color: white;
+    padding: 2% 6%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.UpperBlock {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+.UserInfoBlock {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.UpperInfo h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.LowerInfo {
+    margin-top: 2%;
+}
+
+.LowerInfo h2 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.RightBlock {
+    width: 30%;
+    
+    /* background-color: red; */
+}
+
+.ImageWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.ProfileImage {
+    width: 70%;
+    aspect-ratio: 1;
+    height: auto;
+    border-radius: 10px;
+}
+
+.Arrow {
+    position: absolute;
+    width: 3vh;
+    aspect-ratio: 1;
+    height: auto;
+    top: 1vh;
+    right: 2%;
+}
+
+.UserReserationWrapper {
+    margin-top: 5vh;
+    background-color: #D7F2F7;
+    border-radius: 10px;
+
+    padding: 1%;
+    box-sizing: border-box;
+}

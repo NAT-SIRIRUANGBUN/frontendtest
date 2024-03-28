@@ -1,0 +1,113 @@
+.fullBlock{
+    display: flex;
+    flex-direction: column;
+    background-color: #F4F4F4;
+    border-radius: 10px;
+} 
+
+.rowBlock{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 48px;
+    background-color: #F4F4F4;
+    border-radius: 15px;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+.textBlock , .buttonBlock{
+    width: 23.25%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.textBlock{
+    color:#143154;
+}
+
+.minimizeBlock{
+    width: 7%;
+    height: 100%;
+}
+
+.buttonBlock{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.editBlock , .deleteBlock{
+    width: 50%;
+}
+
+.editButton button, .deleteButton button .saveButton button{
+    color: white; 
+    font-size: 0.875rem;
+  }
+
+  .editButton {
+    background-color: #F3B02E;
+    width: 6vw;
+    box-shadow: none;
+
+  }
+
+  .saveButton {
+    background-color: #4dcf7b;
+    width: 6vw;
+    box-shadow: none;
+
+  }
+
+  .deleteButton {
+    background-color: #f52424;
+    width: 6vw;
+    box-shadow: none;
+
+  }
+
+  .editButton:hover {
+    background-color: #F4F4F4;
+    outline: solid 2px #F3B02E;
+    color: #F3B02E;
+  }
+
+  .saveButton:hover {
+    background-color: #F4F4F4;
+    outline: solid 2px #4dcf7b;
+    color: #4dcf7b;
+  }
+
+  .deleteButton:hover {
+    background-color: #F4F4F4;
+    outline: solid 2px #f52424;
+    color: #f52424;
+  }
+  
+  .description{
+    color: black;
+    width: 60%;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Poppins';
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    background-color: transparent;
+  }
+
+  .description:focus {
+    background-color: transparent ;
+  }
+  
+  .InputWrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+  }

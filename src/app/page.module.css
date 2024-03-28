@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.LandingSec1 {
+
+  height: 94vh;
+  width: 100vw;
+
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+
+  font-family: 'Poppins';
+
+}
+
+.SlideShowImage {
+
+  /* width: 100%; */
+  min-height: 94vh;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 10;
+
+  -webkit-mask-image: linear-gradient(to top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 1));
+  mask-image: linear-gradient(to top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 1));
+
+  object-fit: cover;
+}
+
+.LandingCover {
+
+  height: 100%;
+  width: 100%;
+
+  position: absolute;
+  z-index: 15;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  background: linear-gradient(rgba(255, 255, 255, 0.6) ,  rgb(255, 255, 255 , 0.9) ,   rgb(255, 255, 255 , 1));
+}
+
+.LandingCoverTextWrapper {
+
+  height: 100%;
+  width: 100%;
+
+  margin-top: 2.5%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.LandingCoverTextWrapper h1 {
+
+  font-size: 60px;
+  text-shadow: 0px 2px 12px rgba(21, 21, 21, 0.9);
+  color: rgb(245, 245, 245);
+  
+  user-select: none;
+
+}
+
+.LandingCoverTextWrapper h2 {
+  
+  margin-top: 0.5%;
+
+  font-weight: 600;
+  font-size: 30px;
+
+  text-shadow: 0px 2px 12px rgb(0, 0, 0);
+  color: white;
+
+  user-select: none;
+
+}
+
+.LandingCoverButton {
+
+  margin-top: 3%;
+
+  width: 15%;
+  height: 10%;
+
+  background-color: #FFBF43;
+
+  font-weight: 600;
+  font-size: 20px;
+  color: rgb(90, 69, 98);
+
+  user-select: none;
+
+
+}
+
+.LandingCoverButton:hover{
+
+  background-color: rgb(164, 97, 191);
+  
+  color: #FFBF43;
+
+}
+
+.LandingSec2 {
+
+  height: 120vh;
+  width: 100vw;
+
+  background-color: rgb(255, 255, 255);
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  padding: 0 15% 0 15%;
+
+  box-sizing: border-box;
+
+  font-family: 'Poppins';
+
+}
+
+.LandingSec2Block {
+
+  height: 30%;
+  width: 100%;
+
+  display: grid;
+  gap: 10%;
+  
+}
+
+.LandingSec2BlockLeft {
+
+  grid-template-columns: 4fr 6fr;
+
+}
+
+.LandingSec2BlockRight {
+
+  grid-template-columns: 6fr 4fr;
+
+}
+
+.LandingSec2IconContainer {
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.LandingSec2IconContainer img {
+
+  width: 110%;
+  
+}
+
+.LandingSec2TextContainer {
+
+  display: flex;
+  align-items: center;
+
+  font-size: 20px;
+  font-weight: 300;
+  
+} 
+
+
+@media (width <= 1280px) {
+
+  .LandingCoverTextWrapper h1 {
+
+    font-size: 40px;
+  
+  }
+  
+  .LandingCoverTextWrapper h2 {
+    
+    font-size: 20px;
+
+  }
+
+  .LandingCoverButton {
+
+    font-size: 15px;
+
+  }
+
+  .LandingSec2 {
+
+    padding: 0 10% 0 10%;
+  
+  }
+
+  .LandingSec2IconContainer img {
+
+    width: 125%;
+    
+  }
+
+  .LandingSec2TextContainer {
+
+    font-size: 18px;
+    
+  } 
+
+  .footer{
+    margin-top: 12.5%;
+  }
+
+}
+
+@media (width <= 960px) {
+
+  .LandingCoverButton {
+
+    font-size: 13px;
+
+    width: 25%;
+    height: 8%;
+
+  }
+
+  .LandingSec2TextContainer {
+
+    font-size: 16px;
+    
+  } 
+
+  .LandingSec2IconContainer img {
+
+    width: 140%;
+    
+  }
+
+}
+
+@media (width <= 836px) {
+
+  .SlideShowImage {
+
+    -webkit-mask-image: none;
+    mask-image: none;
+  
+  }
+  
+  .LandingSec2IconContainer img {
+
+    width: 60%;
+    
+  }
+
+  .LandingSec2 {
+
+    height: 150vh;
+
+    margin-top: 15vh;
+    padding: 0 20% 0 20%;
+
+    justify-content: space-around;
+  
+  }
+
+  .LandingSec2Block {
+    
+    height: 30%;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    text-align: center;
+    
+    grid-gap: 0;
+    gap: 0;
+
+  }
+
+  .LandingSec2BlockRight {
+
+    flex-direction: column-reverse;
+
+  }
+
+}
+
+@media (width <= 720px) {
+
+  .LandingCoverTextWrapper h1 {
+
+    font-size: 30px;
+  
+  }
+
+  .LandingSec2IconContainer img {
+
+    width: 80%;
+    
+  }
+
+  .LandingSec2 {
+
+    height: 180vh;
+  
+  }
+
+
+}
+
+@media (width <= 512px) {
+
+  .LandingCoverTextWrapper h1 {
+
+    font-size: 20px;
+    
+  }
+
+  .LandingCoverTextWrapper h2 {
+
+    font-size: 16px;
+
+  }
+
+  .LandingCoverButton {
+
+    font-size: 10px;
+
+    width: 30%;
+    height: 6%;
+
+    margin-top: 7%;
+
+  }
+
+  .LandingCoverTextWrapper h1 {
+
+    font-size: 30px;
+  
+  }
+
+  .LandingSec2IconContainer img {
+
+    width: 100%;
+    
+  }
+
+  .LandingSec2 {
+
+    height: 180vh;
+  
+  }
+  
+}
+

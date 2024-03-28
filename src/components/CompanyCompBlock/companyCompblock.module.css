@@ -1,0 +1,95 @@
+.mock{
+    width: 100%;
+}
+
+.fullBlock{
+    position: relative;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 2% 4% 2% 4%;
+    border-radius: 15px;
+    box-sizing: border-box;
+
+    font-family: 'Poppins';
+}
+
+.minimizeBlock {
+    position: absolute;
+    top: 10px; 
+    right: 10px;
+}
+
+
+.topPart{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.textBlock{
+    width: 60%;
+    /* background-color: aqua; */
+}
+
+.compName{
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.compDesc{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.imgBlock{
+    width: 20%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.compLogo{
+    width: 100%;
+    aspect-ratio: 1;
+    height: auto;
+    margin-right: 10%;
+    border-radius: 15px;
+}
+
+.bottomPart{
+    display: flex;
+    flex-direction: column;
+}
+
+.bottomTextBlock{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: 16px;
+    margin-top: 3%;
+}
+
+.web{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1%;
+
+    
+}
+
+.topic{
+    font-weight: bold;
+}
+
+.link {
+    color: black;
+}
+
+.session{
+    margin-top: 4%;
+    font-weight: bold;
+    font-size: 1.1rem;
+}

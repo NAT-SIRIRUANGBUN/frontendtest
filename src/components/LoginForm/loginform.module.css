@@ -1,0 +1,58 @@
+.loginBlock{
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    width: 100vw;
+    height: 65vh;
+    background-color: #FBECCF;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    border-radius: 40px;
+    color: #1D8BA3;
+}
+
+.loginForm{
+    width: 27.5%;
+    height: 50%;
+    background-color: #FBECCF;
+    border-radius: 10px;
+    border: 2px solid white;
+    text-align: center;
+    padding: 10px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    margin-bottom:20px;
+}
+
+.TextField {
+    width: 90%;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.loginButton {
+    width: 90%;
+    border-radius: 10px;
+    font-size: medium;
+    margin-top: 35px;
+    height: 19%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    background-color: #F3B02E;
+    border-color: white;
+    font-weight: 900;
+    color: white;
+}
+
+.loginButton:hover {
+    background-color: lightgray;
+}
+
+ .title {
+    margin-bottom: 45px;
+}
+
+
+/* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5),0px 4px 2px rgba(0, 0, 0, 0.5); */

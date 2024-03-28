@@ -1,0 +1,158 @@
+/* Import a new font family */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.footerBlock {
+  width: 100vw;
+  height: 22vh;
+  background-color: #CEEEF4;
+  display: flex;
+  flex-direction: row;
+  margin-top: 80px;
+  font-family: 'Roboto', sans-serif;
+  padding-top: 1.75%;
+  padding-bottom: 1.75%;
+  color: #26558F;
+  box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.leftFooter, .rightFooter {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.rightFooter {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  /* background-color: red; */
+}
+
+.leftFooter {
+  justify-content: flex-end;
+  /* background-color: green; */
+}
+
+.leftFooterHead {
+  padding-right: 27.5%;
+  padding-bottom: 6.875%;
+  font-size: 2rem; 
+  font-weight: bold; 
+  /* background-color: aqua; */
+}
+
+.rightTextBox {
+  margin-left: 13.75%;
+  background-color: white;
+  border-radius: 5px;
+  padding: 4.125%;
+  display: flex;
+  flex-direction: column;
+  gap : 15px;
+  align-items: flex-start;
+  width: 35%;
+}
+
+.contactItem {
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+  width: 100%;
+  /* background-color: palegoldenrod; */
+}
+
+.icon {
+  padding-right: 5%;
+  font-size: 1.5rem;
+}
+
+
+@media (width <= 1280px) {
+   .footerBlock{
+    /* background-color: aqua; */
+    height: 16vh;
+   }
+
+   .rightTextBox {
+    gap : 10px;
+    width: 45%;
+  }
+  
+
+}
+
+
+
+@media (width <= 960px) {
+  
+  .footerBlock{
+    /* background-color: green; */
+    height: 14vh;
+   }
+
+   .rightTextBox {
+    gap : 5px;
+    width: 55%;
+    padding: 3.25%;
+  }
+
+  .leftFooterHead {
+    padding-right: 23.5%;
+    padding-bottom: 8.875%;
+    font-size: 1.75rem; 
+  }
+
+  .contactItem {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+  }
+  
+  .icon {
+    padding-right: 5%;
+    padding-left: 5%;
+    font-size: 1.5rem;
+  }
+
+}
+
+
+@media (width <= 720px) {
+  .footerBlock{
+    /* background-color: yellow; */
+    height: 12vh;
+   }
+
+   .rightTextBox {
+    margin-left: 6%;
+    gap : 3px;
+    width: 75%;
+    padding: 3.25%;
+  }
+
+  .leftFooterHead {
+    padding-right: 13.5%;
+    padding-bottom: 10.875%;
+    font-size: 1.6rem; 
+  }
+
+  .contactItem {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+  }
+  
+  .icon {
+    padding-right: 5%;
+    padding-left: 5%;
+    font-size: 1.5rem;
+  }
+
+}
+
+
+
+@media (width <= 512px) {
+
+} 

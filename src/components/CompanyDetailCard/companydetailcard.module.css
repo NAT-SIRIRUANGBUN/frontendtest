@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.DetailCard {
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    font-family: 'Poppins';
+    
+
+}
+
+.DetailCard h2 {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.TopBlock {
+
+    height: 4vh;
+    width: 100%;
+
+    /* background-color: red; */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.LeftTopBlock {
+
+    height: 100%;
+    width: 15vw;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.RightTopBlockOneItem {
+    height: 100%;
+    width: 30vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.RightTopBlock {
+    height: 100%;
+    width: 30vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.RightTopBlock button , .RightTopBlockOneItem button {
+    width: 14.5vw;
+    font-family: 'Poppins';
+    font-size: 16px;
+
+    border-radius: 15px;
+    border: none;
+
+    background-color: #F3B02E;
+    color: white;
+    font-weight: 500;
+}
+
+.RightTopBlock .SaveButton {
+    background-color: #5BA4B4;
+}
+
+
+
+.BottomBlock {
+
+    width: 100%;
+    height: 15vw;
+
+    margin-top: 1vh;
+
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+}
+
+.LeftBottomBlock {
+    /* position: relative; */
+    height: 100%;
+    width: auto;
+    aspect-ratio: 1;
+
+    border-radius: 10%;
+}
+
+.RightBottomBlock {
+
+    height: 100%;
+    width: 70%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+
+    border: solid 3px;
+    border-color: #e1e3e4af;
+    padding: 0 3% 0 3%;
+    box-sizing: border-box;
+
+    border-radius: 15px;
+    
+}
+
+.FormBlock {
+
+    width: 100%;
+    height: 100%;
+    /* background-color: aquamarine; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.InputWrapper {
+    height: 20%;
+    display: grid;
+    width: 100%;
+    grid-template-columns: 3.5fr 10fr;
+    font-size: 20px;
+    font-weight: 300;
+    color: #2D4057;
+}
+
+.InputWrapperText {
+    display: flex;
+    align-items: center;
+    /* align-items: end;   */
+    /* vertical-align: bottom;  */
+
+}
+
+.InputWrapper input {
+
+    display: flex;
+    /* justify-content: flex-end; */
+    vertical-align: bottom;
+    line-height: 10px;
+    height: 100%;
+    font-size: 20px;
+    width: 100%;
+    outline: none;
+
+    /* border-color:  #2D4057 ; */
+    border: none;
+    /* border-style: none none solid none; */
+    /* border-width: 1px; */
+
+    font-family: 'Poppins';
+    font-weight: 300;
+    background-color: transparent;
+    color: #2D4057;
+
+    box-sizing: border-box;
+}
+
+.ImageUpload {
+    height: 100%;
+    aspect-ratio: 1;
+    width: auto;
+    display: flex;
+
+    justify-content: center;    
+    align-items: center;
+
+    outline: none;
+    border: none;
+
+    border-radius: 50%;
+
+    background-color: #61B0C2;
+}

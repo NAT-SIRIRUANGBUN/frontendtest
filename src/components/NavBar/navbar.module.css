@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.NavBar {
+
+    height: 6vh;
+    max-width: 100%;
+
+    position: fixed;
+    z-index: 100;
+    left: 0;
+    top: 0;
+    right: 0;
+    padding: 0 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    font-family:'Poppins';
+    font-weight: 400;
+
+    background-color: #143154;
+
+    box-sizing: border-box;
+
+}
+
+.NavBarContainer {
+
+    height: 80%;
+    width: 95%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.NavBarLogoPic {
+
+    height: 100%;
+
+    /* background-color: #9D9D9D; */
+
+    /* Mock Up Image */
+    /* display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; */
+
+    text-decoration: none;
+    color: #F9F9F9;
+}
+
+.NavBarButtonWrapper {
+
+    height: 100%;
+    width: 30%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.NavBarButton {
+
+    height: 80%;
+    width: 70%;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    text-decoration: none;
+
+}
+
+.NavBarImageButton {
+
+    height: 100%;
+    width: 30%;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    text-decoration: none;
+
+}
+
+.NavBarButton button {
+
+    width: 100%;
+
+    color: #F9F9F9;
+
+    font-family:'Poppins';
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.NavBarProfileImage {
+    height: 100%;
+    aspect-ratio: 1;
+    width: auto;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.NavBarButton button:hover {
+
+    color: #143154;
+    background-color: #f9f9f9;
+
+}
+
+.NavBarButtonCollection {
+    
+    display: none;
+
+    height: 100%;
+    aspect-ratio: 1;
+    width: auto;
+
+    background-color: white;
+
+}
+
+@media (width <= 1280px) {
+   
+    .NavBarButton button {
+        font-size: 16px;
+    }
+
+    .NavBarButtonWrapper {
+        width: 40%;
+    }
+
+}
+
+
+
+@media (width <= 960px) {
+
+    .NavBarButtonWrapper {
+        width: 50%;
+    }
+}
+
+
+@media (width <= 720px) {
+
+    .NavBarButtonWrapper {
+        width: 60%;
+    }
+
+}
+
+
+
+@media (width <= 512px) {
+
+    .NavBarButtonWrapper {
+        justify-content: flex-end;
+    }
+
+    .NavBarButton {
+        display: none;
+    }
+
+    .NavBarImageButton {
+        display: none;
+    }
+
+    .NavBarButtonCollection {
+        display: block;
+    }
+} 
+
+.image{
+    max-height: 6vh;
+}

@@ -1,0 +1,18 @@
+.LogoutButton {
+
+    width: 10vw;
+    height: 5vh;
+    margin-top: 2vh;
+    
+    border: none;
+    outline: none;
+
+    border-radius: 15px;
+    background-color: #F3B02E;
+    color: white;
+
+    font-family: 'Poppins';
+    font-size: 24px;
+    font-weight: 600;
+
+}

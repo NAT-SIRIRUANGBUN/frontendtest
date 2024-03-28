@@ -1,0 +1,64 @@
+.fullPage {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    font-size: large;
+}
+
+.fullBlock {
+    /* width: calc(57% + 80px); */
+    height: 725px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    background-color: #D7F2F7;
+    padding: 25px;
+    border-radius: 20px;
+    margin-top: 30px;
+    overflow-y: auto;
+}
+
+.userBlock {
+    position: relative;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 45px 20px 10px;
+    border-radius: 10px;
+    width: 900px;
+    margin-bottom: 25px;
+}
+
+.detailBlock {
+    color: #2D4057;
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+}
+
+.infoBlock {
+    display: flex;
+    flex-direction: row;
+    padding-left : 15px;
+}
+
+.cover{
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 10px;
+}
+
+.userName{
+    width: 40%;
+}
+
+.tel{
+    width: 25%;
+}
+
+.email{
+    width: 25%;
+}
+

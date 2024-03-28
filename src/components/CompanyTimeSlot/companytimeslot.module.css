@@ -1,0 +1,22 @@
+.CompanyTimeSlot {
+
+    width: 100%;
+
+    background-color: red;
+
+    padding: 1.5%;
+    box-sizing: border-box;
+
+    border-radius: 15px;
+
+}
+
+.CompanyCard {
+
+    height: 50vh;
+    width: 100%;
+    background-color: aliceblue;
+
+    border-radius: 10px;
+
+}

@@ -1,0 +1,12 @@
+.fullBlock{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    background-color: white;
+    padding: 15px 0px;
+    border-radius: 10px;
+}
+
+.textBlock{
+    width: 33.33%;
+}

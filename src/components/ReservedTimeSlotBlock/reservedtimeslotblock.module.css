@@ -1,0 +1,32 @@
+.ReservedTimeSlotBlock {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1.5fr 1fr 1fr 0.5fr;
+    height: 8vh;
+    /* background-color: wheat; */
+    align-items: center;
+
+    padding: 2% 6%;
+    box-sizing: border-box;
+}
+
+.ReservedTimeSlotBlock h2 {
+    font-size: 18px;
+    font-weight: 400;
+    display: flex;
+    text-align: left;
+    width: 100%;
+}
+
+.ButtonWrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.DeleteButton {
+    width: 25%;
+    aspect-ratio: 1;
+    height: auto;
+}

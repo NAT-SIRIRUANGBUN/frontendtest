@@ -1,0 +1,59 @@
+.registerBlock{
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    width: 100vw;
+    height: 75vh;
+    background-color: #62C1D5;
+    margin-top: 40px;
+    padding-top: 25px;
+    border-radius: 40px;
+    color: white;
+}
+
+.registerForm{
+    width: 27.5%;
+    height: 100%;
+    background-color: #62C1D5;
+    border-radius: 10px;
+    border: 2px solid white;
+    text-align: center;
+    padding: 10px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    margin-bottom:20px;
+}
+
+.TextField {
+    width: 90%;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.registerButton {
+    width: 90%;
+    border-radius: 10px;
+    font-size: medium;
+    font-weight: bolder;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    height: 10%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    background-color: #F3B02E;
+    border-color: white;
+    color: white;
+}
+
+.registerButton:hover {
+    background-color: lightgray;
+}
+
+ .title {
+    margin-bottom: 45px;
+}
+
+
+/* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5),0px 4px 2px rgba(0, 0, 0, 0.5); */

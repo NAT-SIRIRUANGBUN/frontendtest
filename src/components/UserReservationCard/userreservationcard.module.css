@@ -1,0 +1,171 @@
+.Card {
+    width: 100%;
+    /* height: 100px; */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins';
+    
+
+}
+
+.ReservationHeader {
+    width: 100%;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.CardWrapper {
+    margin-top: 1vh;
+    width: 100%;
+    background-color: #D7F2F7;
+    border-radius: 20px;
+    padding: 0 2vh 2vh 2vh;
+    box-sizing: border-box;
+
+}
+
+.ReservationBlock {
+    width: 100%;
+    height: 8vh;
+    background-color: #F9F9F9;
+    border-radius: calc(20px - 1.5vh);
+    margin-top: 2vh;
+
+    display: grid;
+    padding: 0 5% 0 5%;
+    grid-template-columns: 3fr 2fr 2fr 1fr 1fr;
+
+    box-sizing: border-box;
+    column-gap: 7%;
+    
+}
+
+
+
+.ReservationBlock h2 {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.ReservationBlock .ArrowFlexBlock {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.ReservationBlock .ArrowImage {
+    width: 3vh;
+    aspect-ratio: 1;
+    height: auto;
+}
+
+.ReservationBlockExpand .ArrowFlexBlock {
+    height: 100%;
+    width: 10%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+.ReservationBlockExpand .ArrowImage {
+    width: 3vh;
+    aspect-ratio: 1;
+    height: auto;
+}
+
+.ReservationBlockExpand {
+    width: 100%;
+    height: 24vh;
+    background-color: #F9F9F9;
+
+    border-radius: calc(20px - 1.5vh);
+    margin-top: 2vh;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 2% 5% 2% 5%;
+    box-sizing: border-box;
+
+}
+
+.LeftBlock {
+    height: 100%;
+    width: 65%;
+    display: grid;
+    grid-template-rows: 2fr 2fr 1fr;
+
+    box-sizing: border-box;
+}
+
+.LeftBlock button {
+    height: 100%;
+}
+
+.LeftTopBlock {
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: 2fr 1.5fr;
+    grid-template-rows: 1fr 1fr;
+
+}
+
+.LeftTopBlock h2 {
+    
+    font-size: 18px;
+    font-weight: 600;
+
+}
+
+.LeftBlock p {
+    
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.LeftBlock button {
+    width: 30%;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #F3B02E;
+    color: #F9F9F9;
+
+    border: none;
+    outline: none;
+
+    border-radius: 5px;
+}
+
+.RightBlock {
+
+    height: 100%;
+    width: 30%;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+.CompanyImage {
+    height: 90%;
+    aspect-ratio: 1;
+    width: auto;
+    margin-right: 20%;
+    border-radius: 20px;
+}
+

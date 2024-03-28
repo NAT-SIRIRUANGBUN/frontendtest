@@ -1,0 +1,59 @@
+.reserveBlock {
+    background-color: #D7F2F7;
+    margin-top: 15px;
+    border-radius: 10px;
+    height: 150px;
+    
+}
+
+
+
+.reserve{
+    background-color: #f9f9f9;
+    
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+.date , .time , .compName{
+    display: flex;
+    align-items: center;
+}
+
+.compName{
+  width: 40%;
+  /* background-color: green; */
+}
+
+.date{
+  width: 25%;
+
+}
+
+.time{
+  width: 25%;
+  /* background-color: antiquewhite; */
+}
+
+.buttonBlock {
+  display: flex;
+  justify-content: center; /* centers horizontally */
+  align-items: center; /* centers vertically */
+  width: 10%;
+  /* background-color: red; */
+}
+
+
+.deleteButton{
+    background-color: #FFAD0F;
+    color: white; 
+    font-size: 0.62rem;
+    width: 50%;
+}
+
+.deleteButton:hover {
+    background-color: #ffb726;
+    color: #f5f5f5;
+  }
